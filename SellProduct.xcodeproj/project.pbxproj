@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C382143615C0D3A400AA6D68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C382143515C0D3A400AA6D68 /* UIKit.framework */; };
+		C382143815C0D3A400AA6D68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C382143715C0D3A400AA6D68 /* Foundation.framework */; };
+		C382143A15C0D3A400AA6D68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C382143915C0D3A400AA6D68 /* CoreGraphics.framework */; };
+		C382144015C0D3A400AA6D68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C382143E15C0D3A400AA6D68 /* InfoPlist.strings */; };
+		C382144215C0D3A400AA6D68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C382144115C0D3A400AA6D68 /* main.m */; };
+		C382144615C0D3A400AA6D68 /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C382144515C0D3A400AA6D68 /* SPAppDelegate.m */; };
+		C382144915C0D3A400AA6D68 /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C382144815C0D3A400AA6D68 /* SPViewController.m */; };
+		C382144C15C0D3A400AA6D68 /* SPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C382144A15C0D3A400AA6D68 /* SPViewController.xib */; };
+		C382145315C0D3F500AA6D68 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C382145215C0D3F500AA6D68 /* StoreKit.framework */; };
+		C3DBCBCD15D0CB3000DAF953 /* UIAlertView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DBCBCA15D0CACE00DAF953 /* UIAlertView+Helper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C382143115C0D3A400AA6D68 /* SellProduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SellProduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C382143515C0D3A400AA6D68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C382143715C0D3A400AA6D68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C382143915C0D3A400AA6D68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C382143D15C0D3A400AA6D68 /* SellProduct-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SellProduct-Info.plist"; sourceTree = "<group>"; };
+		C382143F15C0D3A400AA6D68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C382144115C0D3A400AA6D68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C382144315C0D3A400AA6D68 /* SellProduct-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SellProduct-Prefix.pch"; sourceTree = "<group>"; };
+		C382144415C0D3A400AA6D68 /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		C382144515C0D3A400AA6D68 /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		C382144715C0D3A400AA6D68 /* SPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
+		C382144815C0D3A400AA6D68 /* SPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPViewController.m; sourceTree = "<group>"; };
+		C382144B15C0D3A400AA6D68 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SPViewController.xib; sourceTree = "<group>"; };
+		C382145215C0D3F500AA6D68 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C3DBCBCA15D0CACE00DAF953 /* UIAlertView+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Helper.m"; sourceTree = "<group>"; };
+		C3DBCBCB15D0CACE00DAF953 /* UIAlertView+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Helper.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C382142E15C0D3A400AA6D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C382145315C0D3F500AA6D68 /* StoreKit.framework in Frameworks */,
+				C382143615C0D3A400AA6D68 /* UIKit.framework in Frameworks */,
+				C382143815C0D3A400AA6D68 /* Foundation.framework in Frameworks */,
+				C382143A15C0D3A400AA6D68 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C382142615C0D3A400AA6D68 = {
+			isa = PBXGroup;
+			children = (
+				C382145215C0D3F500AA6D68 /* StoreKit.framework */,
+				C382143B15C0D3A400AA6D68 /* SellProduct */,
+				C382143415C0D3A400AA6D68 /* Frameworks */,
+				C382143215C0D3A400AA6D68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C382143215C0D3A400AA6D68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C382143115C0D3A400AA6D68 /* SellProduct.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C382143415C0D3A400AA6D68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C382143515C0D3A400AA6D68 /* UIKit.framework */,
+				C382143715C0D3A400AA6D68 /* Foundation.framework */,
+				C382143915C0D3A400AA6D68 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C382143B15C0D3A400AA6D68 /* SellProduct */ = {
+			isa = PBXGroup;
+			children = (
+				C3DBCBCA15D0CACE00DAF953 /* UIAlertView+Helper.m */,
+				C3DBCBCB15D0CACE00DAF953 /* UIAlertView+Helper.h */,
+				C382144415C0D3A400AA6D68 /* SPAppDelegate.h */,
+				C382144515C0D3A400AA6D68 /* SPAppDelegate.m */,
+				C382144715C0D3A400AA6D68 /* SPViewController.h */,
+				C382144815C0D3A400AA6D68 /* SPViewController.m */,
+				C382144A15C0D3A400AA6D68 /* SPViewController.xib */,
+				C382143C15C0D3A400AA6D68 /* Supporting Files */,
+			);
+			path = SellProduct;
+			sourceTree = "<group>";
+		};
+		C382143C15C0D3A400AA6D68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C382143D15C0D3A400AA6D68 /* SellProduct-Info.plist */,
+				C382143E15C0D3A400AA6D68 /* InfoPlist.strings */,
+				C382144115C0D3A400AA6D68 /* main.m */,
+				C382144315C0D3A400AA6D68 /* SellProduct-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C382143015C0D3A400AA6D68 /* SellProduct */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C382144F15C0D3A400AA6D68 /* Build configuration list for PBXNativeTarget "SellProduct" */;
+			buildPhases = (
+				C382142D15C0D3A400AA6D68 /* Sources */,
+				C382142E15C0D3A400AA6D68 /* Frameworks */,
+				C382142F15C0D3A400AA6D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SellProduct;
+			productName = SellProduct;
+			productReference = C382143115C0D3A400AA6D68 /* SellProduct.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C382142815C0D3A400AA6D68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Syuhari;
+			};
+			buildConfigurationList = C382142B15C0D3A400AA6D68 /* Build configuration list for PBXProject "SellProduct" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C382142615C0D3A400AA6D68;
+			productRefGroup = C382143215C0D3A400AA6D68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C382143015C0D3A400AA6D68 /* SellProduct */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C382142F15C0D3A400AA6D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C382144015C0D3A400AA6D68 /* InfoPlist.strings in Resources */,
+				C382144C15C0D3A400AA6D68 /* SPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C382142D15C0D3A400AA6D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DBCBCD15D0CB3000DAF953 /* UIAlertView+Helper.m in Sources */,
+				C382144215C0D3A400AA6D68 /* main.m in Sources */,
+				C382144615C0D3A400AA6D68 /* SPAppDelegate.m in Sources */,
+				C382144915C0D3A400AA6D68 /* SPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C382143E15C0D3A400AA6D68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C382143F15C0D3A400AA6D68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C382144A15C0D3A400AA6D68 /* SPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C382144B15C0D3A400AA6D68 /* en */,
+			);
+			name = SPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C382144D15C0D3A400AA6D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Akihiro Matsuura (R2XKJ26KA8)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "62E7A79B-9794-4E06-AE17-97BCA0D83E1E";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C382144E15C0D3A400AA6D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C382145015C0D3A400AA6D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SellProduct/SellProduct-Prefix.pch";
+				INFOPLIST_FILE = "SellProduct/SellProduct-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C382145115C0D3A400AA6D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SellProduct/SellProduct-Prefix.pch";
+				INFOPLIST_FILE = "SellProduct/SellProduct-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C382142B15C0D3A400AA6D68 /* Build configuration list for PBXProject "SellProduct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382144D15C0D3A400AA6D68 /* Debug */,
+				C382144E15C0D3A400AA6D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C382144F15C0D3A400AA6D68 /* Build configuration list for PBXNativeTarget "SellProduct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382145015C0D3A400AA6D68 /* Debug */,
+				C382145115C0D3A400AA6D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C382142815C0D3A400AA6D68 /* Project object */;
+}
